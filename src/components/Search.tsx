@@ -9,6 +9,7 @@ import {BsSearch} from 'react-icons/bs'
 const Search = ({loadUser}: SearchProps) => {
 
   const [userName, setUserName] = useState("")
+  
   return (
     <div>
       <h2>Search for github's user</h2>
