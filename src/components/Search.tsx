@@ -11,7 +11,7 @@ const Search = ({loadUser}: SearchProps) => {
   const [userName, setUserName] = useState("")
   return (
     <div>
-      <h2>Search for a user</h2>
+      <h2>Search for github's user</h2>
       <p>Best repositories</p>
       <div>
         <input type="text" placeholder='Type username' onChange={(e) => setUserName(e.target.value)}/>
