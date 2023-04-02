@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+  color: #ffffff;
+}
+
+body {
+  background: #0d1117;
+  padding: 2rem;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
