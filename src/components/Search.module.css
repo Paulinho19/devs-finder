@@ -9,3 +9,22 @@
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+
+.search_container {
+  display: flex;
+  gap: .5rem;
+}
+
+.search_container input,
+.search_container button {
+  padding: .6rem;
+  border-radius: 3px;
+  border: none;
+  color: #ac0808;
+}
+
+.search_container button {
+  cursor: pointer;
+  background: #3d3d38;
+  text-align: center;
+}
