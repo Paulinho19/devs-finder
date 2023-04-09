@@ -19,7 +19,6 @@ const Search = ({loadUser}: SearchProps) => {
   return (
     <div className={classes.search}>
       <h2>Search for github's user</h2>
-      <p>Best repositories</p>
       <div className={classes.search_container}>
         <input type="text" placeholder='Type username' onChange={(e) => setUserName(e.target.value)} onKeyDown={handleKeyDown}/>
         <button onClick={() => loadUser(userName)}>
