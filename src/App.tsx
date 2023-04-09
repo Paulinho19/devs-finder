@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className={classes.app}>
-      <h1>Devs finder</h1>
+      <h1>Dev's finder</h1>
       <Outlet />
     </div>
   )
