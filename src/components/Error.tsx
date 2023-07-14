@@ -1,9 +1,9 @@
 const Error = () => {
   return (
     <div>
-      <p>User not found :(</p>
+      <p>User not found 😶‍🌫️</p>
     </div>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;
